@@ -21,20 +21,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Managers
         buttonManager = findViewById(R.id.button);
         txtViewManager = findViewById(R.id.textView);
         imgViewManager = findViewById(R.id.imageView);
 
+        // Button Manager
         buttonManager.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 txtViewManager.setText("Clicked!");
+                // Toggle Condition
                 if (imgViewManager.getVisibility() == View.VISIBLE){
                     imgViewManager.setVisibility(View.INVISIBLE);
                 }
                 else {
                     imgViewManager.setVisibility(View.VISIBLE);
                 }
+                // Intent
                 myIntent = new Intent( MainActivity.this, ChildActivity.class);
+                myIntent.putExtra("myExtra", txtViewManager.getText().toString());
                 startActivity(myIntent);
             }
         });
