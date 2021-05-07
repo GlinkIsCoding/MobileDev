@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var countryController = CountryController()
     var body: some View {
-        List(countryController.countries) { country in
-            Text(country.name)
-        }
-            
+        NavigationView{
+            List(countryController.countries) { country in
+                Text(country.name)
+            } // List
+            .navigationBarTitle("Countries", displayMode: .inline)
+        } // NavView
     }
 }
 
