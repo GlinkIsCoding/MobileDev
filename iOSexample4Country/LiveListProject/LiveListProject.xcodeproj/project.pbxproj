@@ -13,6 +13,7 @@
 		07F1B8A62644BF1500479068 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F1B8A52644BF1500479068 /* Preview Assets.xcassets */; };
 		07F1B8AE2644C47D00479068 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1B8AD2644C47D00479068 /* CountryModel.swift */; };
 		07F1B8B02644C82C00479068 /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1B8AF2644C82B00479068 /* CountryController.swift */; };
+		07F2E46B264B64D0009DDAEB /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F2E46A264B64D0009DDAEB /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		07F1B8A72644BF1500479068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F1B8AD2644C47D00479068 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		07F1B8AF2644C82B00479068 /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
+		07F2E46A264B64D0009DDAEB /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				07F1B8A42644BF1500479068 /* Preview Content */,
 				07F1B8AD2644C47D00479068 /* CountryModel.swift */,
 				07F1B8AF2644C82B00479068 /* CountryController.swift */,
+				07F2E46A264B64D0009DDAEB /* DetailView.swift */,
 			);
 			path = LiveListProject;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				07F1B8A12644BF0D00479068 /* ContentView.swift in Sources */,
 				07F1B89F2644BF0D00479068 /* LiveListProjectApp.swift in Sources */,
 				07F1B8B02644C82C00479068 /* CountryController.swift in Sources */,
+				07F2E46B264B64D0009DDAEB /* DetailView.swift in Sources */,
 				07F1B8AE2644C47D00479068 /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
