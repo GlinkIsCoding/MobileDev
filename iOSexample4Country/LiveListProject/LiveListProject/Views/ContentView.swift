@@ -18,6 +18,9 @@ struct ContentView: View {
                 }
             } // List
             .navigationBarTitle("Countries", displayMode: .inline)
+            .navigationBarItems(trailing: NavigationLink(destination: AddCountryView(cityName: "")) {
+                Image(systemName: "plus").foregroundColor(.blue)
+            })
         } // NavView
     }
 }
