@@ -7,7 +7,7 @@
 
 import Foundation
 
-class CountryController {
+class CountryController: ObservableObject {
     // Create a variable (array) which will hold the data for the list
     var countries: [CountryModel]
     
@@ -21,4 +21,11 @@ class CountryController {
             CountryModel(id: UUID(), name: "China", population: "1388M"),
         ]
     }
+    
+    // Function to Add countries to the variable
+        func addCountry(newCountry: CountryModel) {
+            countries.append(newCountry)
+        }
+        // Func to call data from Database.
+        // Consuming Services.
 }
